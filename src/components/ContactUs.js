@@ -37,7 +37,7 @@ export default class ContactUs extends Component {
 			<section id="contact">
 				<div className="row section-head">
 					<div className="twelve columns">
-						<h2 className="lead">N'hésitez pas à m'ecrire pour toute question ou demande</h2>
+						<h2 className="lead">N'hésitez pas à nous écrire pour toute question ou demande</h2>
 						<br />
 						<form onSubmit={this.handleSubmit.bind(this)}>
 							<label className="text-muted">Nom</label>

@@ -35,73 +35,75 @@ let resumeData = {
       "arret 9",
       "arret 10",
     ],
-    "work":[
-      {
-        "CompanyName":"Wild Code School",
-        "specialization":"Développeur web et web mobile fullstack junior",
-        "MonthOfLeaving":"Juillet",
-        "YearOfLeaving":"2020",
-        "Achievements": "Realization of a client project"
-      },
-      {
-        "CompanyName":"Secteur du nettoyage industriel",
-        "specialization":"Manager",
-        "MonthOfLeaving":"",
-        "YearOfLeaving":"2008-2019",
-        "Achievements": "Management de contrats d'entretien, relation commerciale et managériale"
-      }
-    ],
+    "orga": "le texte concernant l'organisation et voir avec des sous titres si nécessaire",
     "skillsDescription":"Mes compétences",
-    "skills":[
+    "sponsors":[
       {
         "skillname":"HTML5",
+        "logo":"../images/HTML5.png",
+        "url":"https://cv-christophe-turpin.netlify.app"
       },
       {
         "skillname":"CSS3",
+        "logo":"../images/CSS3.png",
+        "url":"https://cv-christophe-turpin.netlify.app"
       },
       {
         "skillname":"JavaScript",
+        "logo":"../images/JavaScript.png",
+        "url":"https://cv-christophe-turpin.netlify.app"
       },
       {
         "skillname": "React",
+        "logo":"../images/React.png",
+        "url":"https://cv-christophe-turpin.netlify.app"
       },
       {
         "skillname": "Node",
+        "logo":"../images/Node.png",
+        "url":"https://cv-christophe-turpin.netlify.app"
       },
       {
         "skillname": "MySQL",
+        "logo":"../images/MySQL.png",
+        "url":"https://cv-christophe-turpin.netlify.app"
       },
       {
         "skillname": "Python",
+        "logo":"../images/Python.png",
+        "url":"https://cv-christophe-turpin.netlify.app"
       },
       {
         "skillname": "Swift",
+        "logo":"../images/Swift.png",
+        "url":"https://cv-christophe-turpin.netlify.app"
       },
       {
         "skillname": "Scrum",
+        "logo":"../images/Scrum.png",
+        "url":"https://cv-christophe-turpin.netlify.app"
       },
       {
         "skillname": "WordPress",
+        "logo":"../images/WordPress.png",
+        "url":"https://cv-christophe-turpin.netlify.app"
       },
     ],
-    "portfolio":[
+    "photos":[
       {
         "name":"WildJourney",
         "description":"Premier projet d'étude réalisé avec HTML5, CSS3 & Javascript",
         "imgurl":"https://zupimages.net/up/20/21/6cv4.png", 
-        "url": "https://chris356.github.io/WildJourney/index.html"
       },
       {
         "name":"Covid Escape",
         "description":"Application React réalisée lors d'un hackaton de 24h avec pour thème 'Voyager depuis son canapé'",
         "imgurl": "https://zupimages.net/up/20/21/w1yb.png",
-        "url": "https://goofy-jones-6004d7.netlify.app/"
       },
       {
         "name":"Trizz",
         "description":"Application React faisant appel à différentes API, cette application possède un quizz et la possibilité de participer à la reforestation mondiale",  
         "imgurl":"https://zupimages.net/up/20/21/vmaa.png",
-        "url":"https://trizz.netlify.app/"
       },
       // {
       //   "name":"project4",

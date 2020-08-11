@@ -13,7 +13,7 @@ export default class Header extends Component {
                <li className="current"><a className="smoothscroll" href="#home">Accueil</a></li>
                <li><a className="smoothscroll" href="#about">A propos</a></li>
              <li><a className="smoothscroll" href="#resume">Détails</a></li>
-               <li><a className="smoothscroll" href="#portfolio">Photos</a></li>
+               <li><a className="smoothscroll" href="#photos">Photos</a></li>
                {/* <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li> */}
                <li><a className="smoothscroll" href="#contact">Inscription</a></li>
             </ul>
@@ -29,13 +29,8 @@ export default class Header extends Component {
                   {
                     resumeData.socialLinks && resumeData.socialLinks.map(item =>{
                       return(
-                        item.name === 'malt' ?
                           <li key={item.name}>
-                            <a href={item.url} target="_blank"><img src={item.image} className={item.name} alt={item.name}/></a>
-                          </li>
-                        :
-                          <li key={item.name}>
-                            <a href={item.url} target="_blank"><i className={item.className}></i></a>
+                            <a href={item.url} target="blank"><i className={item.className}></i></a>
                           </li>
                             )
                           }

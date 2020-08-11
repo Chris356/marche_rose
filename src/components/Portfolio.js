@@ -9,22 +9,22 @@ export default class Porfolio extends Component {
     
     return (
       
-      <div>
-          <h1>Un coup d'oeil sur mes réalisations.</h1>
-            <Carousel  showArrows={true} infiniteLoop={true} showThumbs={false} autoPlay={true} useKeyboardArrows={true} swipeable={true} width={1285} height={1500} >
+      <section id='photos'>
+          <h1>Quelques images des précedentes marches.</h1>
+            <Carousel  showArrows={true} infiniteLoop={true} showThumbs={false} autoPlay={true} useKeyboardArrows={true} swipeable={true} >
           {
-            resumeData.portfolio && resumeData.portfolio.map((item)=>{
+            resumeData.photos && resumeData.photos.map((item)=>{
               return(
-                <div style={{ padding: 20, height: 500}}>
-                  <img style={{ height: 400, width: 'auto'}} src={`${item.imgurl}`} className="item-img"/>
-                  <h5><a href={item.url} target='blank'>{item.name}</a></h5>
+                <div >
+                  <img  src={`${item.imgurl}`} alt={item.name} className="item-img"/>
+                  <h5>{item.name}</h5>
                   <p>{item.description}</p>
                 </div>
               )
             })
           }
           </Carousel>
-      </div>
+      </section>
   
         );
   }

@@ -112,14 +112,14 @@
 	   width: 48px;
 		height: 48px;
 		text-align: left;
-		background-color: #11ABB0;
+		background-color: rgb(12, 12, 167);
 		position: relative;
       border: none;
       float: right;
 
       font: 0/0 a;
       text-shadow: none;
-      color: transparent;
+      color: ;
 
       position: relative;
       top: 0px;
@@ -129,7 +129,7 @@
 	#nav-wrap > a:before,
    #nav-wrap > a:after {
 	   position: absolute;
-		border: 2px solid #fff;
+		border: 2px solid #dfa834;
 		top: 35%;
 		left: 25%;
 		right: 25%;
@@ -160,7 +160,7 @@
 	#nav-wrap:target > ul#nav	{
 	   display: block;
       padding: 30px 20px 48px 20px;
-      background: #1f2024;
+      background: rgb(12, 12, 167);
       margin: 0 30px;
       clear: both;
    }
@@ -254,7 +254,7 @@
 
    /* Portfolio Section
    /* ----------------------------------------------------------------- */
-   #portfolio-wrapper .columns { margin-bottom: 40px; }
+   #photos-wrapper .columns { margin-bottom: 40px; }
    .popup-modal {	max-width: 85%; }
 
 

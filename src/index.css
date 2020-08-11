@@ -35,10 +35,6 @@ body {
   height: 125px !important;
 }
 
-#HTML {
-  background-image: url('./images/photo.png');
-}
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
