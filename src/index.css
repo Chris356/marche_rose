@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.malt {
+  width: 30px;
+  height: auto;
+}
+
+.skillsList{
+  width: 100%;
+  display: flex !important;
+  flex-flow: row wrap !important;
+  justify-content: space-between !important;
+}
+
+.skillItem{
+  min-width: 100px !important;
+}
+
+.skilllogo{
+  display: flex !important;
+  flex-flow: column nowrap !important;
+  justify-content: center;
+  align-items: center;
+  min-width: 100% !important;
+  max-width: 125px;
+  height: 125px !important;
+}
+
+#HTML {
+  background-image: url('./images/photo.png');
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
