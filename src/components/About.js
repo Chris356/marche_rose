@@ -15,9 +15,9 @@ export default class About extends Component {
 					</div>
 
 					<div className="nine columns main-col">
-						<h2>Le rotary club Combourg, Dol-de-Bretagne</h2>
+						<h2>Le Rotary Club Combourg, Dol-de-Bretagne</h2>
 						<p>{resumeData.aboutrotary}</p>
-						<h2>La marche rose</h2>
+						<h2>La Marche Rose</h2>
 						<p className="address">{resumeData.marche}</p>
 					</div>
 				</div>

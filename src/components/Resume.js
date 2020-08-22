@@ -8,7 +8,7 @@ export default class Resume extends Component {
     return (
       <section id="resume">
         <div className="title">
-          <h1 id="titleColor">A propos</h1>
+          <h1 id="titleColor">Détails</h1>
         </div>
 
         <div className="row education">
@@ -28,12 +28,6 @@ export default class Resume extends Component {
                 )}
               </div>
             </div>
-            <h3>Les différentes étapes :</h3>
-            <ul>
-              {resumeData.arrets.map(item =>
-                <li>{item}</li>
-              )}
-            </ul>
           </div>
         </div>
         <div className="row work">
@@ -44,8 +38,9 @@ export default class Resume extends Component {
           <div className="nine columns main-col">
             <div className="row item">
               <div className="twelve columns">
-                <h3>Titre 1</h3>
-                <p className="info">{resumeData.orga}</p>
+                {resumeData.orga && resumeData.orga.map(item =>
+                  <p className="orga">{item}</p>
+                )}
               </div>
 
             </div>

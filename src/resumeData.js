@@ -16,26 +16,18 @@ let resumeData = {
        
       ],
     "aboutrotary":"Texte de description ou d'historique du rotary club.",
-  "marche":"Texte de description ou d'historique de la marche rose.",
+  "marche": "La Marche Rose est un événement ayant lieu à Combourg depuis 3 années consécutives. Nous espérons que cette 4ème édition sera une réussite au même titre que les années précédentes ayant comptées jusqu'à 2.000 participants. L'opération se déroulera en plusieurs vagues et sur des départs différés afin de respecter les distanciations sociales dans le cadre du COVID-19. Nous vous proposons un parcours pédestre similaire aux années précédentes et se déroulant entre la ville de Combourg et ses lacs.",
     "parcours":
       [
-        "le parcours fait 8km",
+        "le parcours fait 6.5 km",
         "L'heure de départ est prévu à xx:xx",
-        "Le lieu de départ est prévu à ---------",
+        "Le lieu de départ est prévu à l'Espace Malouas",
       ],
-    "arrets":[
-      "arret 1",
-      "arret 2",
-      "arret 3",
-      "arret 4",
-      "arret 5",
-      "arret 6",
-      "arret 7",
-      "arret 8",
-      "arret 9",
-      "arret 10",
-    ],
-    "orga": "le texte concernant l'organisation et voir avec des sous titres si nécessaire",
+  "orga": [
+    "Un ravitaillement sera offert lors de l'événement dans le respect des règles d'hygiène en vigueur",
+    "Pour toute inscription de 10 €, un badge sera offert et à retirer lors de l'événement à l'espace Malouas.",
+    "A partir de 50 € de don, vous aurez droit à une attestation à retirer auprès des membres de votre Rotary Club"
+  ],
     "skillsDescription":"Mes compétences",
     "sponsors":[
       {

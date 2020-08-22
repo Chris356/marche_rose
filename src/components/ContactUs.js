@@ -17,7 +17,7 @@ export default class ContactUs extends Component {
 			subject: subject,
 			message_html: message
 		};
-		emailjs.send('gmail', 'template_6gZTJ4oN', templateParams, 'user_A36dpAU6B7XJQ6rXxh5j0');
+		emailjs.send('gmail', 'template_47Y4Wuwj', templateParams, 'user_gd4DXRM7slYdtFoHSHONb');
 		this.resetForm();
 		alert('Votre message a bien été envoyé');
 	}
