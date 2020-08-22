@@ -9,9 +9,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.malt {
-  width: 30px;
-  height: auto;
+.inscButton a {
+  color: white !important;
+}
+
+.inscButton a:hover {
+  color: black !important;
+}
+
+.inscButton:hover {
+  color: black !important;
 }
 
 .skillsList{
@@ -33,6 +40,14 @@ body {
   min-width: 100% !important;
   max-width: 125px;
   height: 125px !important;
+}
+
+#ou {
+  text-align: center;
+}
+
+#telContact {
+  color: rgb(12, 12, 167) !important;
 }
 
 code {

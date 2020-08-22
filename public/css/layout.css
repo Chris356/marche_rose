@@ -710,6 +710,10 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
+   display: flex;
+   flex-flow: column nowrap;
+   justify-content: center;
+   align-items: center;
    background: #e995e9;
    padding-top: 96px;
    padding-bottom: 102px;

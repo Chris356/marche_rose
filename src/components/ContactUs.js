@@ -13,11 +13,16 @@ export default class ContactUs extends Component {
 		const { name, email, subject, message } = this.state;
 		let templateParams = {
 			from_name: `${name}, ${email}`,
-			to_name: 'daisukeleblonx@gmail.com',
+			to_name: 'marcherosecombourg@gmail.com',
 			subject: subject,
 			message_html: message
 		};
-		emailjs.send('gmail', 'template_47Y4Wuwj', templateParams, 'user_gd4DXRM7slYdtFoHSHONb');
+		emailjs.send(
+		'marche_rose_combourg', 
+		'template_47Y4Wuwj', 
+		templateParams, 
+		'user_gd4DXRM7slYdtFoHSHONb'
+		);
 		this.resetForm();
 		alert('Votre message a bien été envoyé');
 	}
@@ -75,8 +80,12 @@ export default class ContactUs extends Component {
 								value={this.state.message}
 								onChange={this.handleChange.bind(this, 'message')}
 							/>
-							<button>Go!</button>
+							<button>Envoyer</button>
 						</form>
+						<h2 id="ou"> -- OU --</h2>
+						<h5>Contactez par téléphone :</h5>
+						<h4 id='telContact'>Damien HERMIER 07.85.23.27.43</h4>
+
 					</div>
 				</div>
 			</section>

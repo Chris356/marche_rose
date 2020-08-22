@@ -42,7 +42,8 @@ export default class Resume extends Component {
                   <p className="orga">{item}</p>
                 )}
               </div>
-
+              <a href='https://www.helloasso.com/associations/rotary-dol-
+combourg/evenements/marche-rose' target='blank'><button className='inscButton'>Je m'inscris</button></a>
             </div>
           </div>
         </div>
