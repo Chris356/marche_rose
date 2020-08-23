@@ -33,7 +33,7 @@ header {
    max-height: 600px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url('../images/header-background.jpg') top center;
+   background: #161415 url('../images/photo2.jpg') top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -207,10 +207,10 @@ ul#nav li.current a { color: #dfa834; }
    color: rgb(12, 12, 167);
 }
 #about .profile-pic {
+   padding: 10% 0 10% 0;
    position: relative;
    width: 120px;
    height: auto;
-   border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
@@ -260,7 +260,6 @@ ul#nav li.current a { color: #dfa834; }
 }
 
 #resume .header-col { padding-top: 9px; }
-#resume .main-col { padding-right: 10%; }
 
 .education, .work {
    margin-bottom: 48px;

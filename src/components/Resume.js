@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import MAP from '../images/map.png'
+import MAP from '../images/map.jpg'
+import Combourg from '../images/Combourg.jpg'
 
 export default class Resume extends Component {
   render() {
@@ -20,7 +21,7 @@ export default class Resume extends Component {
           <div className="nine columns main-col">
             <div className="row item">
               <div className="five columns">
-                <img id='map' src={mappi} alt='mapParcours' />
+                <a href="https://zupimages.net/up/20/34/fr3k.jpg" target="blank"><img id='map' src={mappi} alt='mapParcours' /></a>
               </div>
               <div className="four columns">
                 {resumeData.parcours && resumeData.parcours.map(item =>
@@ -52,7 +53,7 @@ combourg/evenements/marche-rose' target='blank'><button className='inscButton'>J
         <div className="row skill">
 
           <div className="three columns header-col">
-            <h2><span>Sponsors</span></h2>
+            <h2><span>Remerciement</span></h2>
           </div>
 
           <div className="nine columns main-col">
@@ -60,17 +61,8 @@ combourg/evenements/marche-rose' target='blank'><button className='inscButton'>J
 
             <div className="skillsList">
 
-              {
-                resumeData.sponsors && resumeData.sponsors.map((item) => {
-                  return (
-                    <a className="skillItem" target="blank" href={`${item.url}`} >
-                      <img className='skilllogo' src={`${item.logo}`} alt={item.skillname} />
-                      <p align='center'>{item.skillname}</p>
-                    </a>
-                  )
-                })
-              }
-
+              <p id='thx'>Remerciement à la municipalité de Combourg pour son aide, aux bénévoles, aux entreprises et bien sur à tout les participants ... </p>
+              <img src={Combourg} alt='Combourg' id='Combourg'></img>
 
             </div>
 

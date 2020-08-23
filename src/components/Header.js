@@ -12,8 +12,8 @@ export default class Header extends Component {
             <ul id="nav" className="nav">
                <li className="current"><a className="smoothscroll" href="#home">Accueil</a></li>
                <li><a className="smoothscroll" href="#about">A propos</a></li>
-             <li><a className="smoothscroll" href="#resume">Détails</a></li>
                <li><a className="smoothscroll" href="#photos">Photos</a></li>
+             <li><a className="smoothscroll" href="#resume">Détails</a></li>
                {/* <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li> */}
                <li><a className="smoothscroll" href="#contact">Contact</a></li>
             </ul>

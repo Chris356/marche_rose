@@ -9,6 +9,49 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+#district {
+  position: relative;
+  top: -40px;
+}
+
+#Logo{
+  padding: 0 10% 0 10% !important;
+  margin-bottom: 15%;
+}
+
+#photos #carousel {
+  width: min-content;
+  margin: 0 15% 0 15%;
+}
+
+
+#Combourg {
+  margin-top: -5%;
+  padding: 10%;
+}
+
+#first-slide {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: stretch;
+}
+
+#logos {
+  display: flex !important;
+  flex-flow: column nowrap !important;
+  justify-content: space-between !important;
+  align-items: flex-end !important;
+}
+
+#map{
+  width: 500px !important;
+  height: auto;
+}
+
+#thx {
+  font-style: italic;
+}
+
 .inscButton a {
   color: white !important;
 }
