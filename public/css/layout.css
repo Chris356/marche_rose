@@ -201,10 +201,12 @@ ul#nav li.current a { color: #dfa834; }
    font: 22px/30px 'opensans-bold', sans-serif;
    color: rgb(12, 12, 167);
    margin-bottom: 12px;
+   margin-top: 12px;
 }
 #about p {
    line-height: 30px;
    color: rgb(12, 12, 167);
+   text-align: justify;
 }
 #about .profile-pic {
    padding: 10% 0 10% 0;

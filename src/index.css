@@ -9,25 +9,36 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.descrip, .adress{
+  margin: 0;
+}
+
 #district {
   position: relative;
   top: -40px;
 }
 
 #Logo{
-  padding: 0 10% 0 10% !important;
+  padding: 0 15% 0 15% !important;
   margin-bottom: 15%;
 }
 
-#photos #carousel {
-  width: min-content;
-  margin: 0 15% 0 15%;
+#carousel {
+  width: 55vw;
+}
+
+#photos {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
 }
 
 
 #Combourg {
-  margin-top: -5%;
-  padding: 10%;
+  margin-top: -15%;
+  margin-bottom: -15%;
+  padding: 20%;
 }
 
 #first-slide {
@@ -89,7 +100,7 @@ body {
   text-align: center;
 }
 
-#telContact {
+.telContact {
   color: rgb(12, 12, 167) !important;
 }
 

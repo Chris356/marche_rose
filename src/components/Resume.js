@@ -39,12 +39,12 @@ export default class Resume extends Component {
           <div className="nine columns main-col">
             <div className="row item">
               <div className="twelve columns">
+                <p className='orga'>Un ravitaillement sera offert lors de l'événement dans le respect des règles d'hygiène en vigueur.  <a href="https://zupimages.net/up/20/35/i8sq.jpg" target="blank">Voir les consignes d'hygiènes.</a></p>
                 {resumeData.orga && resumeData.orga.map(item =>
                   <p className="orga">{item}</p>
                 )}
               </div>
-              <a href='https://www.helloasso.com/associations/rotary-dol-
-combourg/evenements/marche-rose' target='blank'><button className='inscButton'>Je m'inscris</button></a>
+              <a href='https://www.helloasso.com/associations/rotary-dol-combourg/evenements/marche-rose' target='blank'><button className='inscButton'>Je m'inscris</button></a>
             </div>
           </div>
         </div>
