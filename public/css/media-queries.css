@@ -257,6 +257,9 @@
    #photos-wrapper .columns { margin-bottom: 40px; }
    .popup-modal {	max-width: 85%; }
 
+   #carousel {
+      min-width: 100%;
+   }
 
    /* Testimonials Section
    ----------------------------------------------------------------------- */
