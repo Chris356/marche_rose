@@ -26,7 +26,7 @@ export default class About extends Component {
 						<h2>La Marche Rose</h2>
 						{resumeData.marche.map(item => <p className="adress">{item}&nbsp;</p>)}
 						<h2>La Ligue contre le cancer</h2>
-						<p className="address">{resumeData.ligue.desc}</p><a href={resumeData.ligue.url} target="blank"><button>le site de la ligue</button></a>
+						<p className="address">{resumeData.ligue.desc}</p><a href={resumeData.ligue.url} target="blank"><button id="subButton">le site de la ligue</button></a>
 					</div>
 				</div>
 			</section>

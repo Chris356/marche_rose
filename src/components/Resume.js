@@ -36,7 +36,7 @@ export default class Resume extends Component {
             <h2><span>Organisation</span></h2>
           </div>
 
-          <div className="nine columns main-col">
+          <div className="nine columns main-col" id="orgarow">
             <div className="row item">
               <div className="twelve columns">
                 <p className='orga'>Un ravitaillement sera offert lors de l'événement dans le respect des règles d'hygiène en vigueur.  <a href="https://zupimages.net/up/20/35/i8sq.jpg" target="blank">Voir les consignes d'hygiènes.</a></p>
