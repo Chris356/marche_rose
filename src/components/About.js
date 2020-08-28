@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Logo from '../images/rotaryLogo.png';
 import LogoLigue from '../images/logoligue.png';
-import district from '../images/district.jpg';
+import district from '../images/district1.jpg';
 import Noeud from '../images/noeud.png'
 export default class About extends Component {
 	render() {
