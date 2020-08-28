@@ -365,6 +365,9 @@
    header .social { font-size: 20px;}
    header .social li { margin: 0 6px; }
 
+   #district{
+      width: 100%;
+   }
 
    #about #logos {
       display: none !important;
