@@ -108,3 +108,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.devContent h4 {
+  color: #dfa834;
+}
+
+.devContent h5 {
+  color: whitesmoke;
+}
+
+.devContent .logodev {
+  max-width: 50px !important;
+  min-width: 50px !important;
+  margin-left: 30px;
+}
+
+.devContent .devItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
