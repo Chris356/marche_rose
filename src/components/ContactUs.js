@@ -84,8 +84,10 @@ export default class ContactUs extends Component {
 						</form>
 						<h2 id="ou"> -- OU --</h2>
 						<h5>Contactez par téléphone :</h5>
-						<h4 className='telContact'>Mr Morvan Guy: 0680525209</h4>
-						<h4 className='telContact'>Mr Péron Alain: 0603781929</h4>
+						<div className="contacts">
+							<h4 className='telContact'>Mr Morvan Guy: <span>0680525209</span></h4>
+							<h4 className='telContact'>Mr Péron Alain: <span>0603781929</span></h4>
+						</div>
 
 					</div>
 				</div>

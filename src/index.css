@@ -100,8 +100,21 @@ body {
   text-align: center;
 }
 
+.contacts {
+  height: 15vh;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: space-between;
+  justify-content: space-around;
+  padding: 10px 0 10px 0;
+}
+
 .telContact {
   color: rgb(12, 12, 167) !important;
+}
+
+.telContact span {
+  margin-left: 30px;
 }
 
 code {
@@ -118,8 +131,8 @@ code {
 }
 
 .devContent .logodev {
-  max-width: 50px !important;
-  min-width: 50px !important;
+  max-width: 40px !important;
+  min-width: 40px !important;
   margin-left: 30px;
 }
 

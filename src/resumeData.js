@@ -21,7 +21,7 @@ let resumeData = {
         },
        
       ],
-  "aboutrotary": ["Le Rotary est un réseau international de professionnels qui donnent un sens à leurs vies en prônant l’amitié, l’éthique et le service à Autrui.", "Notre club de Combourg - Dol de Bretagne est constitué d’une équipe de 21 personnes de tout horizon professionnel, des différentes communes avoisinantes et de tout âge, se réunissant sur Combourg ou les communes avoisinantes tous les jeudis, pour un moment convivial et coordonner nos actions.","Chaque club est spécifique dans ses actions et dans l’ambiance que créent ses membres, nous vous invitons à venir découvrir le nôtre qui, nous l’espérons, vous séduira par sa franche camaraderie et la décontraction qui l’accompagne."],
+  "aboutrotary": ["Le Rotary est un réseau international de professionnels qui donnent un sens à leurs vies en prônant l’amitié, l’éthique et le service à Autrui.", "Notre club de Combourg - Dol de Bretagne est constitué d’une équipe de 21 personnes de tout horizon professionnel, des différentes communes et de tout âge, se réunissant sur Combourg ou les communes avoisinantes tous les jeudis, pour un moment convivial et coordonner nos actions.","Chaque club est spécifique dans ses actions et dans l’ambiance que créent ses membres, nous vous invitons à venir découvrir le nôtre qui, nous l’espérons, vous séduira par sa franche camaraderie et la décontraction qui l’accompagne."],
   "marche": ["La Marche Rose est la continuité du semi-marathon organisé par le Rotary à Combourg, il y a 5 ans maintenant.","La Marche Rose s’adresse à un public plus large composé de coureurs et de marcheurs.Ainsi, tous peuvent profiter du parcours bucolique mis en place pour cet événement.","Ce parcours permet, aux personnes extérieures à Combourg, de profiter du cadre offert par la Ville et ses paysages, et aux Combourgeoises et Combourgeois, de se retrouver pour un moment convivial et engagé.","La Marche Rose est un moment de partage et de forte mobilisation en raison de ses objectifs : collecter le plus grand nombre d’adhésions et de dons afin de soutenir activement les actions menées par la Ligue contre le Cancer.","L’année dernière, nous comptions 1.500 participants.","Nous comptons sur vous pour participer avec force et conviction afin que nous puissions être aussi nombreux cette année.","Bien entendu, nous avons mis en œuvre des dispositifs afin de respecter les règles en vigueur quant à la Covid - 19 et aux distanciations d’usage.","C’est pourquoi, les coureurs partiront par groupe à partir de 14h30 et les marcheurs les suivront à partir de 15h00 par petit groupe et par tranche de 15 minutes.","Nous comptons sur vous pour apporter vos masques et les porter au départ et à l’arrivée du parcours."],
   "ligue": {
     "desc":"N’hésitez pas à vous informer des nombreuses actions de la Ligue contre le Cancer en allant sur",
@@ -37,7 +37,7 @@ let resumeData = {
       ],
   "orga": [
     "Pour toute inscription de 10 €, un badge sera offert et à retirer lors de l'événement à l'espace Malouas.",
-    "A partir de 50 € de don, vous aurez droit à une attestation à retirer auprès des membres de votre Rotary Club"
+    "A partir de 50 € de don sur la cagnotte en ligne, nous vous remettrons un CERFA à retirer auprès des membres du Rotary Club Combourg Dol."
   ],
 
     "photos":[
@@ -71,7 +71,7 @@ let resumeData = {
       {
         "name":"Kenny PHIRI",
         "img":logoK,
-        "url":""
+        "url":"https://kenny-phiri.netlify.app"
       },
     ]
   }

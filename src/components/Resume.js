@@ -19,11 +19,11 @@ export default class Resume extends Component {
           </div>
           <br />
           <div className="nine columns main-col">
-            <div className="row item">
+            <div className="row item" id="parcours">
               <div className="five columns">
                 <a href="https://zupimages.net/up/20/34/fr3k.jpg" target="blank"><img id='map' src={mappi} alt='mapParcours' /></a>
               </div>
-              <div className="four columns">
+              <div className="four columns" id="indications">
                 {resumeData.parcours && resumeData.parcours.map(item =>
                   <p className="info">{item}</p>
                 )}
