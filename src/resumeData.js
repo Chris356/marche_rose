@@ -71,7 +71,7 @@ let resumeData = {
       {
         "name":"Kenny PHIRI",
         "img":logoK,
-        "url":"https://kenny-phiri.netlify.app"
+        "url":"https://phiri-kenny.netlify.app"
       },
     ]
   }
